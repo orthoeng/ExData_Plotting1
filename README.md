@@ -1,5 +1,20 @@
 ## Introduction
 
+## Added files
+
+    Plot1.png
+    Plot1.R
+
+    Plot2.png
+    Plot2.R
+
+    Plot3.png
+    Plot3.R
+
+    Plot4.png
+    Plot4.R
+
+
 This assignment uses data from
 the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine
 Learning Repository</a>, a popular repository for machine learning
