@@ -40,9 +40,11 @@ library(dplyr)
                   plot(rangedate$Sub_metering_1 ~ rangedate$Datetime, type="l", ylab = "Energy sub metering", xlab = "") 
                         lines(rangedate$Sub_metering_2 ~ rangedate$Datetime, col= 2)
                         lines(rangedate$Sub_metering_3 ~ rangedate$Datetime, col= 4)
-                        legend("topright", lty = 1, col = c(1, 2, 4), y.intersp = 0.8, legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
+                        legend("topright", lty = 1, col = c(1, 2, 4), y.intersp = 0.8, legend = c("Sub_metering_1",
+                                            "Sub_metering_2", "Sub_metering_3"))
 
-                  plot(rangedate$Global_reactive_power ~ rangedate$Datetime, type="l", ylab = "Global_reactive_power", xlab = "datetime") 
+                  plot(rangedate$Global_reactive_power ~ rangedate$Datetime, type="l", ylab = "Global_reactive_power", 
+                                              xlab = "datetime") 
 
 ##########################################################################################################
 ## 6. Construct the plot and save it to a PNG file with a width of 480 pixels and a height of 480 pixels.

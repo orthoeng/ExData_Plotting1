@@ -34,7 +34,8 @@ library(dplyr)
                 lines(rangedate$Sub_metering_2 ~ rangedate$Datetime, col= 2)
                 lines(rangedate$Sub_metering_3 ~ rangedate$Datetime, col= 4)
 
-          legend("topright", lty = 1, col = c(1, 2, 4), y.intersp = 0.8, legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
+          legend("topright", lty = 1, col = c(1, 2, 4), y.intersp = 0.8, legend = c("Sub_metering_1", 
+                                      "Sub_metering_2", "Sub_metering_3"))
 
 ##########################################################################################################
 ## 6. Construct the plot and save it to a PNG file with a width of 480 pixels and a height of 480 pixels.
